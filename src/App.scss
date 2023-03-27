@@ -1,3 +1,4 @@
+@import './styles/variables';
 
 .container {
   display: block;
@@ -13,14 +14,12 @@
   justify-content: center;
 
   .col1 {
-    width: 50%;
-    font-family: 'Cormorant Garamond', monospace;
+    font-family: $introduction-font;
     padding: 0px 10px 10px 0px;
     line-height: 1.6rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .col2 {
-    width: 50%;
     text-align: right;
   }
 }

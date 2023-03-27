@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import '../../styles/variables';
 
 .header {
-  font-family: 'Faster One', cursive;
+  font-family: $header-font;
   padding: 10px 0px;
   border-bottom: dashed 1px silver;
   margin-bottom: 20px;

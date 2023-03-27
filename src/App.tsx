@@ -1,8 +1,9 @@
 import './App.scss';
 import Card from './components/Card/index';
 import Header from './components/Header/index';
-import Disclaimer from './components/Disclaimer';
+// import Disclaimer from './components/Disclaimer';
 import BoardContainer from './components/BoardContainer';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,11 +19,12 @@ function App() {
         <div className="col2"><Card /></div>
       </div>
       <div>
-        <BoardContainer />
+        
       </div>
       <div>
-        <Disclaimer />
+        <BoardContainer />
       </div>
+      <Footer />
     </div>
   );
 }
