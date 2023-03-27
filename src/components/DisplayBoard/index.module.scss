@@ -1,8 +1,4 @@
-
 .display_board {
-  // border: solid 1px silver;
-  // border-radius: 15px;
-  // font-family: 'ZCOOL QingKe HuangYou', sans-serif;
   font-family: 'Share Tech Mono', monospace;
   padding: 10px 10px;
   .title {
@@ -15,8 +11,8 @@
       position: absolute;
       bottom: 5px;
       left: 0px;
-      width: 55px;
-      height: 40px;
+      width: 60px;
+      height: 45px;
     }
     label {
       position: absolute;
@@ -25,13 +21,14 @@
     }
   }
   .numbers {
-    font-size: 14px;
+    font-size: 1.05rem;
     table {
       width: 100%;
       border-collapse: collapse;
       border-spacing: 0;
       td {
-        padding: 6px;
+        color: rgb(110, 110, 110);
+        padding: 8px;
         label {
           border-bottom: dashed 1px silver;
         }

@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Concert+One&family=Monoton&display=swap');
 $bg1: url('https://storage.googleapis.com/dream-machines-output/b6cebcc9-8267-4fa7-b7ca-ec571d22904e/0_0.png');
 $bg2: url('https://storage.googleapis.com/dream-machines-output/b1c1010f-144a-42a9-bf1d-2dfd58a59a5d/0_0.png');
 $bg3: url('https://storage.googleapis.com/dream-machines-output/66eb98ca-6a4f-4575-8186-ed266de09baf/0_0.png');
@@ -17,12 +16,11 @@ $bg3: url('https://storage.googleapis.com/dream-machines-output/66eb98ca-6a4f-45
   height: 260px;
   color: grey;
   background-color: black;
-  // border: solid 2px rgb(134, 131, 131);
   border: solid 1px rgb(246, 216, 87);
   border-radius: 15px;
   padding: 10px;
   box-shadow: 0 0 15px gold;
-  background-image: $bg1;
+  background-image: $bg2;
   background-size: cover;
   background-repeat: no-repeat;
   // -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */

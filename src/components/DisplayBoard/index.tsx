@@ -1,6 +1,7 @@
 import { IssuerType } from '../../credit_card/issuer/issuer';
 import CardNumber from '../../credit_card/card_number';
 import style from './index.module.scss';
+import CardIntroduction from '../CardIntroduction';
 
 const DisplayBoard = (props: {type: IssuerType}) => {
   const card = new CardNumber(props.type);
@@ -17,6 +18,7 @@ const DisplayBoard = (props: {type: IssuerType}) => {
         <label>{card.issuer.name}</label>
         </div>
       <div className={style.numbers}>
+        <CardIntroduction type={props.type} />
         <table>
           {
             numbers.map((item) => {
