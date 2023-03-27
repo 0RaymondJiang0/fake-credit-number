@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Concert+One&family=Monoton&display=swap');
+$bg1: url('https://storage.googleapis.com/dream-machines-output/b6cebcc9-8267-4fa7-b7ca-ec571d22904e/0_0.png');
+$bg2: url('https://storage.googleapis.com/dream-machines-output/b1c1010f-144a-42a9-bf1d-2dfd58a59a5d/0_0.png');
+$bg3: url('https://storage.googleapis.com/dream-machines-output/66eb98ca-6a4f-4575-8186-ed266de09baf/0_0.png');
+
+@mixin card-text {
+  font-size: 16px;
+  color: rgb(245, 233, 167);
+  font-family: 'Concert One', cursive;
+  text-shadow: 1px 1px 2px black, -1px -1px 2px gold;
+}
+
+.card {
+  position: relative;
+  // real card: 3.375in x 2.125in
+  width: 420px;
+  height: 260px;
+  color: grey;
+  background-color: black;
+  // border: solid 2px rgb(134, 131, 131);
+  border: solid 1px rgb(246, 216, 87);
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 0 15px gold;
+  background-image: $bg1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  // -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  // filter: grayscale(80%);
+}
+
+.title {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-family: 'Monoton', 'Concert One', serif;
+  font-size: 18px;
+  color: gold;
+}
+
+.cardName {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 30px;
+  // font-weight: bold;
+  font-family: 'Concert One', cursive;
+}
+
+.cardNumber {
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  margin: 140px auto;
+  font-size: 32px;
+  color: white;
+  text-shadow: 1px 1px 2px rgb(105, 105, 105), -1.2px -1.2px 2px gold;
+}
+
+.chip {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  background-color: gold;
+  width: 55px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgb(234, 204, 9)
+}
+
+.logo {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+  width: 80px;
+  height: 60px;
+}
+
+.AmericanExpress {
+  width: 60px;
+  height: 40px;
+}
+
+.userName {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  @include card-text;
+}
+
+.validDate {
+  position: absolute;
+  bottom: 20px;
+  left: 200px;
+  @include card-text;
+}
+
+.validDateTitle {
+  position: absolute;
+  bottom: 40px;
+  left: 190px;
+  @include card-text;
+  font-size: 12px;
+}

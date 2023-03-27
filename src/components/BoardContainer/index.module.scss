@@ -1,0 +1,13 @@
+.board_container {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px 10px;
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    td {
+      padding: 15px 5px 25px 5px;
+    }
+  }
+}
