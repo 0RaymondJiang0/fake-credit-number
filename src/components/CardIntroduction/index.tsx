@@ -31,6 +31,36 @@ const introductions = new Map<IssuerType, JSX.Element>([
     <div>
       <p>JCB Co., Ltd. (株式会社ジェーシービー), formerly Japan Credit Bureau, is a credit card company based in Tokyo, Japan. It is accepted at JCB merchants, and has strategic alliances with Discover Network merchants in the United States, UnionPay merchants in China, American Express merchants in Canada, and RuPay merchants in India.</p>
     </div>
+  ],
+  [
+    IssuerType.DinersCarteBlanche,
+    <div>
+      <p>Diners Club International (DCI), founded as Diners Club, is a charge card company owned by Discover Financial Services. Formed in 1950 by Frank X. McNamara, Ralph Schneider, Matty Simmons, and Alfred S. Bloomingdale, it was the first independent payment card company in the world, successfully establishing the financial service of issuing travel and entertainment (T&E) credit cards as a viable business.</p>
+    </div>
+  ],
+  [
+    IssuerType.DinersInternational,
+    <div>
+      <p></p>
+    </div>
+  ],
+  [
+    IssuerType.DinersUSCanada,
+    <div>
+      <p></p>
+    </div>
+  ],
+  [
+    IssuerType.Maestro,
+    <div>
+      <p></p>
+    </div>
+  ],
+  [
+    IssuerType.UnionPay,
+    <div>
+      <p></p>
+    </div>
   ]
 ])
 

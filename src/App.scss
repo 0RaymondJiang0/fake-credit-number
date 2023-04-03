@@ -1,27 +1,10 @@
 @import './styles/variables';
 
-.container {
-  display: block;
-  margin: 0px 100px;
-  padding: 5px 20px 20px;
-  height: 100vh;
+.row {
+  padding: 10px 0px;
 }
-
 .description {
-  display: flex;
-  flex-direction: row;
-  align-items: top;
-  justify-content: center;
-
-  .col1 {
-    font-family: $introduction-font;
-    padding: 0px 10px 10px 0px;
-    line-height: 1.6rem;
-    font-size: 1rem;
-  }
-  .col2 {
-    text-align: right;
-  }
+  font-family: $introduction-font;
 }
 
 

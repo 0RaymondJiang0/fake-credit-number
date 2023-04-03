@@ -9,19 +9,17 @@ function App() {
   return (
     <div className="container">
       <Header />
-      <div className="description">
-        <div className="col1">
-        Welcome to our Credit Card Number Generator for testing purposes. 
-        This website is designed to provide developers and testers with valid, 
-        but fake credit card numbers for use in software development, testing, and quality assurance. 
+      <div className="row">
+        <div className="col description">
+        Welcome to our Credit Card Number Generator for testing purposes.
+        This website is designed to provide developers and testers with valid,
+        but fake credit card numbers for use in software development, testing, and quality assurance.
         Please note that these credit card numbers are <strong>NOT REAL</strong> and should not be used for any illegal activities or unauthorized transactions.
         </div>
-        <div className="col2"><Card /></div>
+        <div className="col"><Card /></div>
       </div>
-      <div>
-        
-      </div>
-      <div>
+
+      <div className='row'>
         <BoardContainer />
       </div>
       <Footer />
